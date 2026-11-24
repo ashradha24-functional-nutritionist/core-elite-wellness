@@ -1,0 +1,955 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Core Elite Wellness | Dr Ashwini J, Holistic Health &amp; Healing</title>
+<meta name="description" content="Core Elite Wellness by Dr Ashwini J. A personalised 16-week online wellness program: root-cause, food-first care for gut, thyroid, hormones, weight, sleep and stress.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#0F3D3E; --green-2:#2E5B5C; --sage:#E3EFEC; --cream:#FBF6F1; --paper:#FFFDFA;
+  --saffron:#B4513A; --saffron-d:#92402C; --gold:#E6C27A; --line:#EADFD3; --ink:#1B2F30; --mute:#5A706F;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"DM Sans","Helvetica Neue",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6;font-size:17px}
+h1,h2,h3{font-family:"Fraunces",Georgia,"Times New Roman",serif;color:var(--green);line-height:1.15;letter-spacing:-.015em;font-weight:600}
+a{color:inherit}
+img,svg{max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.eyebrow{font-size:13px;letter-spacing:.22em;font-weight:700;color:var(--saffron-d);text-transform:uppercase}
+.rule{width:56px;height:3px;background:var(--saffron);margin:16px 0 22px;border:0}
+section{padding:88px 0}
+h2{font-size:clamp(30px,4vw,44px)}
+h2 span,h1 span{color:var(--saffron);font-style:italic}
+.lead{font-size:19px;color:var(--green-2);max-width:680px}
+.btn{display:inline-block;background:var(--saffron);color:#fff;text-decoration:none;font-weight:700;padding:14px 30px;border-radius:60px;transition:transform .15s,background .15s;border:0;cursor:pointer;font-size:16px}
+.btn:hover{background:var(--saffron-d);transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--green);border:2px solid var(--green)}
+.btn.ghost:hover{background:var(--green);color:#fff}
+
+/* placeholders she must fill */
+.todo{background:#fff2a8;border-bottom:2px dashed #c9a400;padding:0 4px;border-radius:3px;color:#5a4a00;font-style:normal}
+
+/* top bar + nav */
+.topbar{background:var(--green);color:#FBF1E6;font-size:14px}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;padding-top:9px;padding-bottom:9px;flex-wrap:wrap}
+.topbar a{text-decoration:none}
+nav{position:sticky;top:0;z-index:20;background:rgba(251,246,241,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo b{font-family:"Fraunces",Georgia,serif;font-size:22px;color:var(--green);display:block;line-height:1}
+.logo small{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--saffron-d);font-weight:700}
+.links{display:flex;gap:26px;align-items:center}
+.links a{text-decoration:none;font-size:15px;font-weight:600;color:var(--green-2)}
+.links a:hover{color:var(--saffron-d)}
+.links .btn{padding:9px 20px;color:#fff;font-size:14px}
+.burger{display:none;background:none;border:0;font-size:28px;color:var(--green);cursor:pointer}
+
+/* hero */
+.hero{padding:72px 0 80px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:760px;height:760px;border-radius:50%;background:radial-gradient(circle,#E6C27A 0%,rgba(230,194,122,0) 68%);top:-300px;right:-160px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center;position:relative}
+.hero h1{font-size:clamp(40px,6vw,72px);margin:16px 0 20px;letter-spacing:-.025em}
+.hero p{font-size:20px;color:var(--green-2);max-width:560px}
+.hero .cta{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.portrait{aspect-ratio:4/5;border-radius:200px 200px 28px 28px;background:linear-gradient(160deg,var(--sage),#C9DEDA);border:3px solid var(--line);display:grid;place-items:center;text-align:center;padding:30px;position:relative;box-shadow:0 30px 60px -30px rgba(15,61,62,.4)}
+.portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%;border-radius:inherit;display:block}
+.portrait .ring{position:absolute;inset:-18px;border:3px dashed var(--saffron);opacity:.4;border-radius:220px 220px 40px 40px}
+.portrait svg{width:96px;height:96px;margin:0 auto 14px;display:block}
+.portrait p{font-size:15px;color:var(--green-2)}
+
+/* stats */
+.stats{background:var(--green);color:#FBF1E6;padding:44px 0}
+.stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+.stats b{display:block;font-family:"Fraunces",Georgia,serif;font-size:46px;color:var(--gold);line-height:1}
+.stats span{font-size:14px;letter-spacing:.08em;text-transform:uppercase;opacity:.9}
+
+/* about */
+.about .grid{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.about p+p{margin-top:16px}
+.creds{background:var(--paper);border:2px solid var(--line);border-radius:24px;padding:30px}
+.creds h3{font-size:22px;margin-bottom:14px}
+.creds li{list-style:none;padding:9px 0 9px 30px;border-bottom:1px solid var(--line);position:relative}
+.creds li:last-child{border:0}
+.creds li:before{content:"✦";position:absolute;left:0;color:var(--saffron)}
+
+.path{background:var(--paper);border-top:1px solid var(--line)}
+.route{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:36px;counter-reset:r}
+.route>div{border-left:3px solid var(--saffron);padding:4px 0 4px 18px}
+.route b{display:block;font-family:"Fraunces",Georgia,serif;font-size:20px;color:var(--green);margin-bottom:6px}
+.route span{font-size:15px;color:var(--mute);line-height:1.5;display:block}
+@media(max-width:900px){.route{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.route{grid-template-columns:1fr}}
+/* pillars */
+.pillars{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
+.card{background:var(--cream);border:2px solid var(--line);border-radius:24px;padding:30px}
+.card .num{width:48px;height:48px;border-radius:50%;background:var(--saffron);color:#fff;display:grid;place-items:center;font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:22px;margin-bottom:16px}
+.card h3{font-size:22px;margin-bottom:8px}
+.card p{color:var(--mute);font-size:16px}
+
+/* focus areas */
+.chips{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.chip{background:var(--paper);border:2px solid var(--line);border-radius:20px;padding:22px 20px}
+.chip i{font-style:normal;font-size:28px;display:block;margin-bottom:8px}
+.chip b{display:block;color:var(--green);font-family:"Fraunces",Georgia,serif;font-size:19px;margin-bottom:4px}
+.chip span{font-size:14px;color:var(--mute);line-height:1.4;display:block}
+
+/* journey */
+.journey{background:var(--green);color:#FBF1E6}
+.journey h2{color:#FBF1E6}.journey .lead{color:#D5E4E1}.journey .eyebrow{color:var(--gold)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:44px;counter-reset:s}
+.step{border-top:3px solid var(--gold);padding-top:20px}
+.step:before{counter-increment:s;content:"0" counter(s);font-family:"Fraunces",Georgia,serif;font-size:40px;color:var(--gold);display:block;margin-bottom:6px}
+.step h3{color:#FBF1E6;font-size:21px;margin-bottom:8px}
+.step p{font-size:15.5px;color:#D5E4E1}
+
+.goals{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px}
+.goals span{background:var(--green);color:#FBF1E6;border-radius:40px;padding:10px 20px;font-weight:600;font-size:15px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+.ticks li{list-style:none;padding:6px 0 6px 28px;position:relative;color:var(--mute);font-size:16px}
+.ticks li:before{content:"✓";position:absolute;left:0;color:var(--saffron);font-weight:700}
+.step small{display:block;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:4px}
+.perks{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px}
+.perks span{border:2px solid var(--gold);color:var(--gold);border-radius:40px;padding:8px 18px;font-size:14.5px;font-weight:600}
+@media(max-width:900px){.two{grid-template-columns:1fr}}
+.spot{margin-top:28px;background:var(--green);color:#FBF1E6;border-radius:24px;padding:30px 34px}
+.spot .eyebrow{color:var(--gold)}
+.spot h3{color:#FBF1E6;font-size:28px;margin:6px 0 8px}
+.spot p{color:#D5E4E1;max-width:760px}
+.vh{margin-top:44px;font-size:24px}
+.vtest{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:20px;margin-top:18px}
+.vcard{background:var(--paper);border:2px solid var(--line);border-radius:20px;overflow:hidden}
+.vcard iframe{width:100%;aspect-ratio:16/10;border:0;display:block;background:#000}
+.vcard iframe.ig{aspect-ratio:9/14;max-height:560px}
+.vcard video{width:100%;display:block;background:#000;aspect-ratio:9/16;max-height:420px;object-fit:cover}
+.vcard .vc{padding:14px 18px;font-size:14px;color:var(--mute)}
+.vcard .vc b{display:block;color:var(--green);font-family:"Fraunces",Georgia,serif;font-size:17px}
+.vcard.empty{border-style:dashed;display:grid;place-items:center;text-align:center;padding:36px 20px;min-height:220px;font-size:15px}
+.vcard a.go{display:grid;place-items:center;aspect-ratio:9/16;max-height:420px;background:var(--green);color:#FBF1E6;text-decoration:none;font-size:44px}
+@media(max-width:900px){.vtest{grid-template-columns:1fr}}
+.programs{background:var(--paper);border-top:1px solid var(--line)}
+.tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:22px;margin-top:28px}
+.track{background:var(--cream);border:2px solid var(--line);border-radius:26px;padding:30px;display:flex;flex-direction:column;border-top:6px solid var(--saffron)}
+.track .tag{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--saffron-d);margin-bottom:8px}
+.track h3{font-size:25px;margin-bottom:10px}
+.track .for{color:var(--green-2);font-size:16px;margin-bottom:14px}
+.track .safe{margin:16px 0 20px;padding:12px 14px;background:var(--sage);border-radius:14px;font-size:14px;color:var(--green);line-height:1.5}
+.track .btn{margin-top:auto;align-self:flex-start}
+.ba{column-count:3;column-gap:20px;margin-top:18px}
+.bacard{display:block;width:100%;text-align:left;font:inherit;cursor:zoom-in;break-inside:avoid;margin:0 0 20px;background:var(--paper);border:2px solid var(--line);border-radius:20px;overflow:hidden;padding:0;transition:transform .15s,border-color .15s}
+.bacard:hover{transform:translateY(-3px);border-color:var(--saffron)}
+.bacard .pair{display:grid;grid-template-columns:1fr 1fr;position:relative}
+.bacard .pair figure{position:relative}
+.bacard img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover}
+.bacard figcaption{position:absolute;left:8px;bottom:8px;background:rgba(15,61,62,.85);color:#fff;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:3px 9px;border-radius:20px;font-weight:700}
+.bacard .one img{aspect-ratio:auto;object-fit:contain;background:#fff}
+.bacard .bc{padding:14px 18px;font-size:14px;color:var(--mute)}
+.bacard .bc b{display:block;color:var(--green);font-family:"Fraunces",Georgia,serif;font-size:17px}
+.bacard.empty{border-style:dashed;display:grid;place-items:center;text-align:center;padding:36px 20px;min-height:220px;font-size:15px}
+@media(max-width:900px){.tracks{grid-template-columns:1fr}.ba{column-count:2}}
+@media(max-width:520px){.ba{column-count:1}}
+.chips2{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.chip2{font:inherit;font-size:14.5px;font-weight:600;padding:9px 18px;border-radius:40px;border:2px solid var(--line);background:var(--paper);color:var(--green);cursor:pointer;transition:all .15s}
+.chip2:hover{border-color:var(--saffron)}
+.chip2.on{background:var(--green);border-color:var(--green);color:#fff}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(10,42,43,.92);display:grid;place-items:center;padding:24px;cursor:zoom-out}
+.lb[hidden]{display:none}
+.lb img{max-width:min(94vw,820px);max-height:92vh;border-radius:14px;background:#fff;box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.lbx{position:absolute;top:14px;right:18px;background:none;border:0;color:#fff;font-size:42px;line-height:1;cursor:pointer}
+.incl{margin-top:26px;background:var(--sage);border-radius:20px;padding:18px 22px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.incl b{font-family:"Fraunces",Georgia,serif;color:var(--green);font-size:18px;margin-right:6px}
+.incl span{background:var(--paper);border:2px solid var(--line);border-radius:40px;padding:6px 14px;font-size:14px;font-weight:600;color:var(--green)}
+.more{margin:4px 0 0;background:transparent;border:0;border-top:1px dashed var(--line);border-radius:0;padding:12px 0 0}
+.more summary{font-family:"DM Sans",sans-serif;font-size:15px;font-weight:700;color:var(--saffron-d)}
+.more h4{font-family:"Fraunces",Georgia,serif;color:var(--green);font-size:17px;margin:14px 0 4px}
+.more p{font-size:15px;color:var(--mute);margin:0}
+.more .ticks li{font-size:15px}
+.track .fee{font-size:14.5px;color:var(--green);margin:0 0 16px}
+.track .fee b{color:var(--saffron-d)}
+.fees{background:var(--cream)}
+.feegrid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;margin-top:34px}
+.feecard{background:var(--green);color:#FBF1E6;border-radius:28px;padding:34px}
+.feecard .tag{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--gold)}
+.feecard .price{font-family:"Fraunces",Georgia,serif;font-size:clamp(38px,5vw,56px);color:#fff;line-height:1.1;margin:8px 0 10px}
+.feecard .price small{font-size:20px;color:var(--gold);font-weight:500}
+.feecard p{color:#D5E4E1;font-size:16px}
+.feecard .ticks{margin:16px 0 22px}
+.feecard .ticks li{color:#FBF1E6}
+.feecard .ticks li:before{color:var(--gold)}
+.feecard .btn{background:var(--saffron)}
+.join{background:var(--paper);border:2px solid var(--line);border-radius:28px;padding:30px}
+.join h3{font-size:24px;margin-bottom:12px}
+.join ol{list-style:none;counter-reset:j}
+.join li{counter-increment:j;position:relative;padding:12px 0 12px 46px;border-bottom:1px dashed var(--line);color:var(--mute);font-size:16px}
+.join li:last-child{border:0}
+.join li:before{content:counter(j);position:absolute;left:0;top:11px;width:32px;height:32px;border-radius:50%;background:var(--saffron);color:#fff;display:grid;place-items:center;font-family:"Fraunces",Georgia,serif;font-weight:700}
+.join li b{color:var(--green)}
+.th{margin-top:40px;font-size:26px}
+.terms{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:16px}
+.terms>div{background:var(--paper);border:2px solid var(--line);border-radius:20px;padding:20px 22px}
+.terms b{font-family:"Fraunces",Georgia,serif;color:var(--green);font-size:18px;display:block;margin-bottom:6px}
+.terms p{font-size:15px;color:var(--mute);margin:0}
+@media(max-width:900px){.feegrid{grid-template-columns:1fr}}
+.ptest{margin:6px 0 10px;padding:12px 0 0;border-top:1px dashed var(--line)}
+.ptest[hidden]{display:none}
+.ptest h4{font-family:"Fraunces",Georgia,serif;color:var(--green);font-size:17px;margin:0 0 8px}
+.pthumbs{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px}
+.pthumb{flex:0 0 92px;background:#fff;border:2px solid var(--line);border-radius:12px;overflow:hidden;padding:0;cursor:zoom-in;font:inherit;text-align:center;transition:border-color .15s}
+.pthumb:hover{border-color:var(--saffron)}
+.pthumb img{width:100%;height:92px;object-fit:cover;object-position:top;display:block}
+.pthumb span{display:block;font-size:12px;font-weight:600;color:var(--green);padding:4px 2px}
+.pvids{display:grid;gap:10px;margin-bottom:10px}
+.pvid{margin:0;border:2px solid var(--line);border-radius:14px;overflow:hidden;background:#000}
+.pvid video{width:100%;max-height:300px;display:block;object-fit:contain;background:#000}
+.pvid figcaption{background:var(--paper);font-size:13px;color:var(--mute);padding:8px 12px}
+.pvid figcaption b{color:var(--green);font-family:"Fraunces",Georgia,serif;font-size:15px}
+.tracks>.track{min-width:0}
+.ptest{min-width:0;max-width:100%}
+.pthumbs{max-width:100%}
+.media{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+img,video{-webkit-user-drag:none;-webkit-touch-callout:none}
+.bacard img,.pthumb img,.recipes img,.lb img,.portrait img,.vcard video,.pvid video{user-select:none;-webkit-user-select:none}
+/* patterns */
+.pat{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:40px}
+.pat .card{background:var(--paper)}
+.pat .tag{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--saffron-d);margin-bottom:8px;display:block}
+.note{margin-top:22px;font-size:14px;color:var(--mute);max-width:760px}
+
+/* food */
+.food{background:var(--sage)}
+.food .grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.tiles{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.tiles span{background:var(--paper);border:2px solid var(--line);border-radius:40px;padding:8px 18px;font-weight:600;color:var(--green);font-size:15px}
+.chartmock{background:var(--paper);border:2px solid var(--line);border-radius:26px;padding:28px;box-shadow:0 24px 50px -30px rgba(15,61,62,.45)}
+.chartmock h3{font-size:20px;margin-bottom:14px}
+.chartmock .row{display:flex;gap:14px;padding:11px 0;border-bottom:1px dashed var(--line);font-size:15.5px}
+.chartmock .row:last-child{border:0}
+.chartmock .row b{flex:none;width:92px;color:var(--saffron-d)}
+
+.recipes{margin-top:30px}
+.recipes h3{font-size:20px;margin-bottom:10px}
+.recipes ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.recipes a{display:block;background:var(--paper);border:2px solid var(--line);border-radius:16px;padding:12px 16px;text-decoration:none;transition:border-color .15s}
+.recipes a:hover{border-color:var(--saffron)}
+.recipes b{display:block;color:var(--green);font-family:"Fraunces",Georgia,serif;font-size:16.5px}
+.recipes a span{font-size:13.5px;color:var(--mute);line-height:1.3;display:block}
+@media(max-width:520px){.recipes ul{grid-template-columns:1fr}}
+.quotes{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:40px}
+.quotes blockquote{background:var(--paper);border:2px solid var(--line);border-radius:24px;padding:28px;position:relative}
+.quotes blockquote:before{content:"“";font-family:"Fraunces",Georgia,serif;font-size:80px;line-height:.6;color:var(--saffron);display:block;height:32px}
+.quotes p{font-family:"Fraunces",Georgia,serif;font-size:18px;color:var(--green);line-height:1.45}
+.quotes cite{display:block;margin-top:16px;font-style:normal;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--saffron-d);font-weight:700}
+@media(max-width:900px){.quotes{grid-template-columns:1fr}}
+/* media */
+.vids{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+.vid{aspect-ratio:16/10;border-radius:20px;background:var(--green);color:#FBF1E6;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px;border:2px solid var(--line);font-size:15px;position:relative;text-decoration:none;transition:transform .15s}
+.vid:hover{transform:translateY(-3px)}
+.vid:before{content:"▶";display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:var(--saffron);color:#fff;margin:0 auto 10px;font-size:17px}
+.vid b{font-family:"Fraunces",Georgia,serif;font-size:18px;line-height:1.25;display:block}
+.vid small{display:block;margin-top:6px;color:#C3D8D4;font-size:13.5px}
+
+/* faq */
+.faq{background:var(--paper);border-top:1px solid var(--line)}
+details{background:var(--cream);border:2px solid var(--line);border-radius:18px;padding:18px 24px;margin-top:14px}
+summary{cursor:pointer;font-family:"Fraunces",Georgia,serif;font-size:19px;color:var(--green);font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:16px}
+summary::after{content:"+";color:var(--saffron);font-size:26px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin-top:12px;color:var(--mute)}
+.narrow{max-width:800px}
+
+/* contact */
+.book{background:var(--saffron);color:#fff;text-align:center}
+.book h2{color:#fff}.book h2 span{color:var(--green)}
+.book p{max-width:600px;margin:14px auto 28px;font-size:19px}
+.book .btn{background:var(--green)}
+.book .btn:hover{background:#0A2A2B}
+.book .btn.ghost{background:transparent;color:#fff;border-color:#fff}
+.book .btn.ghost:hover{background:#fff;color:var(--saffron-d)}
+
+footer{background:#0A2A2B;color:#C3D8D4;padding:44px 0 30px;font-size:14px}
+footer .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}
+footer h4{font-family:"Fraunces",Georgia,serif;color:#FBF1E6;font-size:20px;margin-bottom:8px}
+.disc{margin-top:28px;padding-top:20px;border-top:1px solid #1B4647;font-size:13px;line-height:1.55;opacity:.9;grid-column:1/-1}
+
+@media(max-width:900px){
+  section{padding:64px 0}
+  .links{display:none;position:absolute;top:68px;left:0;right:0;background:var(--cream);flex-direction:column;padding:18px 24px 24px;border-bottom:1px solid var(--line);align-items:flex-start}
+  .links.open{display:flex}
+  .burger{display:block}
+  .hero .wrap,.about .grid,.food .grid,footer .wrap{grid-template-columns:1fr}
+  .portrait{width:100%;max-width:340px;margin:0 auto}
+  .cards,.pat,.vids{grid-template-columns:1fr}
+  .chips{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .stats .wrap{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:520px){.steps,.chips{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <span data-slot="email">✉ <a data-mail href="#"></a></span>
+  <span>Online consultations worldwide · Bangalore, India</span>
+  <span data-slot="wa"><a data-wa-text data-wa href="#"></a></span>
+</div></div>
+
+<nav><div class="wrap">
+  <a class="logo" href="#top">
+    <svg width="38" height="38" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" fill="#E3EFEC" stroke="#C8644A" stroke-width="2" stroke-dasharray="4 4"/><path d="M24 36c0-10 4-16 12-18-1 9-5 16-12 18Z" fill="#0F3D3E"/><path d="M24 36c0-8-3-13-10-15 1 7 4 13 10 15Z" fill="#2E5B5C"/><path d="M24 37V22" stroke="#FBF6F1" stroke-width="1.6"/></svg>
+    <span><b>Core Elite Wellness</b><small>Dr Ashwini J</small></span>
+  </a>
+  <button class="burger" aria-label="Menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+  <div class="links" onclick="this.classList.remove('open')">
+    <a href="#about">About</a><a href="#stories">Results</a><a href="#programs">Programs</a><a href="#journey">How it works</a><a href="#focus">Who it's for</a><a href="#approach">Approach</a><a href="#food">Food</a><a href="#faq">FAQ</a><a href="#fees">Fees</a>
+    <a class="btn" href="#book">Book a consult</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div>
+    <div class="eyebrow">→ Core Elite Wellness · Holistic Health &amp; Healing</div>
+    <h1>Find the <span>why</span> behind how you feel.</h1>
+    <p>Personalised guidance to help you regain physical, mental and internal well-being. For people who have been told “your reports are normal” but still feel tired, bloated, stuck or unwell. From weight goals to managing health conditions and finding inner peace.</p>
+    <div class="cta"><a class="btn" href="#book">Request a callback</a><a class="btn ghost" href="#stories">See real results</a></div>
+  </div>
+  <div class="portrait"><div class="ring"></div><img src="images/portrait.jpg" alt="Dr Ashwini J, founder of Core Elite Wellness" width="800" height="800" fetchpriority="high"></div>
+</div></header>
+
+<div class="stats"><div class="wrap">
+  <div><b>15+</b><span>Years in practice</span></div>
+  <div><b>5,000+</b><span>Clients guided</span></div>
+  <div><b>40+</b><span>Recipe categories in my video library</span></div>
+  <div><b>16 wk</b><span>Structured program in four phases</span></div>
+</div></div>
+
+<section class="about" id="about"><div class="wrap grid">
+  <div>
+    <div class="eyebrow">About</div>
+    <h2>Dr <span>Ashwini J</span></h2>
+    <hr class="rule">
+    <p class="lead">Founder, Core Elite Wellness · Functional nutritionist &amp; metabolic health consultant</p>
+    <p>For over 15 years I have bridged Ayurveda, modern clinical nutrition and functional health coaching, helping people, women in particular, reset their hormones and rebuild their health through food, gut care and lifestyle. I founded Core Elite Wellness in Bangalore in 2016 and have guided clients across the world online since 2021. I speak English, Hindi, Marathi and Kannada.</p>
+    <p>My work begins where most consultations end: with the reports that came back “normal”, the symptoms that never made it onto a form, and a history that goes back further than the last six months.</p>
+    <p>I don’t believe in one diet for everyone. I look for what is driving your symptoms, change one thing at a time, and measure whether it worked.</p>
+  </div>
+  <aside class="creds">
+    <h3>Qualifications</h3>
+    <ul>
+      <li>BAMS</li>
+      <li>Master’s in Nutrition</li>
+      <li>Certified functional medicine expert</li>
+    </ul>
+    <h3 style="margin-top:22px">Recognition &amp; talks</h3>
+    <ul>
+      <li>Best Health Coach, Wellness Quotient (three consecutive years)</li>
+      <li>Member, Medical Advisory Board, Wellness Quotient Community</li>
+      <li>Expert panelist, Nutrilite webinar on the role of nutrition in immunity, 1,000+ attendees</li>
+      <li>Webinars on immunity, heart health, women’s health and hair health, with up to 800+ attendees</li>
+      <li>Panelist: “Sports &amp; Nutrition: Preventing Lifestyle Diseases in Children”, Bengaluru</li>
+      <li>Spoke on women’s wellness to 250 women entrepreneurs</li>
+      <li>Talks at AECOM Software, 1000 Yoga Academy and Millet Era, Pune</li>
+      <li>Article on nutrition during COVID in The Hindu BusinessLine</li>
+    </ul>
+  </aside>
+</div></section>
+
+<section class="path"><div class="wrap">
+  <div class="eyebrow">Recognised by peers</div>
+  <h2>A trusted voice in <span>functional nutrition</span></h2>
+  <hr class="rule">
+  <div class="route">
+    <div><b>Founder</b><span>Core Elite Wellness, founded in Bangalore in 2016 and online worldwide since 2021</span></div>
+    <div><b>Advisory board member</b><span>Medical Advisory Board, Wellness Quotient Community</span></div>
+    <div><b>Best Health Coach</b><span>Wellness Quotient, three years in a row</span></div>
+    <div><b>Invited expert</b><span>Panelist and speaker at webinars with hundreds of attendees, and at corporate and academy events</span></div>
+  </div>
+  <p class="note">Special focus: PCOS, thyroid, insulin resistance, gut health and autoimmune conditions. A community of 1,000+ members for daily education and mini-challenges.</p>
+</div></section>
+
+<section id="stories"><div class="wrap">
+  <div class="eyebrow">Experiences so far</div>
+  <h2>Real people, <span>real feedback</span></h2>
+  <hr class="rule">
+  <div class="quotes">
+    <blockquote><p>“Her diet plans are not just another copy-paste from the internet. They cater to your body type, taking into consideration your medical condition.”</p><cite>Ninasha · client since 2018</cite></blockquote>
+    <blockquote><p>“Her approach is very holistic. Her menus are full of options but the right quantity… it’s a slow and gradual process, unlike crash diets.”</p><cite>Client · two months in</cite></blockquote>
+    <blockquote><p>“Diet plans shared by her are simple and easy to follow, and I learnt many interesting recipes which are healthy and tasty. I was never left starving, and I am enjoying the process of mindful eating.”</p><cite>Client · under three months in</cite></blockquote>
+    <blockquote><p>“Glad that I met a genuine person.”</p><cite>Mohan</cite></blockquote>
+  </div>
+
+  <div class="spot">
+    <div class="eyebrow">Client spotlight</div>
+    <h3>Niesa Kolakhe</h3>
+    <p>Mrs Femme International 2024, now taking her journey from the Femme International crown to Asian &amp; European Paris Fashion Week. I’m proud to be her nutrition guide. Niesa is a busy professional who travels widely, within India and abroad. Understanding her needs and working with her to reach her goals was a different experience.</p>
+  </div>
+
+  <h3 class="vh" id="results">More client results</h3>
+  <div class="chips2" id="rchips" role="tablist" aria-label="Filter more client results"></div>
+  <div class="ba" id="ba"></div>
+  <p class="note">Every body is different, and these results are not typical or guaranteed. They came from lifestyle, food and routine changes and do not replace medical advice.</p>
+  <p style="margin-top:18px"><a class="btn ghost" href="https://www.instagram.com/dr_ashwini_j/" target="_blank" rel="noopener">More client stories on Instagram</a></p>
+  <div class="lb" id="lb" hidden><button class="lbx" id="lbx" aria-label="Close">×</button><img id="lbi" alt=""></div>
+
+  <h3 class="vh">Hear it from them</h3>
+  <div class="vtest" id="vtest"></div>
+  <p class="note">Shared by clients on WhatsApp and lightly edited for spelling. Individual experiences vary and are not a guarantee of results.</p>
+</div></section>
+
+<section class="programs" id="programs"><div class="wrap">
+  <div class="eyebrow">Programs for your goal</div>
+  <h2>Eight focused <span>programs</span></h2>
+  <hr class="rule">
+  <p class="lead">Each program runs inside the 16-week Core Elite plan and is built around your history, your reports and your medicines.</p>
+  <div class="incl">
+    <b>Every program includes</b>
+    <span>Personalised chart with recipe videos</span><span>One-on-one and group support</span><span>WhatsApp community</span><span>Free weekly webinars</span>
+  </div>
+  <div class="tracks">
+
+    <article class="track" id="anti">
+      <div class="tag">Program 1</div>
+      <h3>Anti-inflammatory program</h3>
+      <p class="for">Ongoing tiredness, bloating, body aches, frequent flare-ups, stubborn weight, or inflammation markers (such as hs-CRP) that are raised on your reports.</p>
+      <ul class="ticks"><li>An anti-inflammatory food pattern built on real, familiar food</li><li>Gut health, sleep, stress and recovery, which all drive inflammation</li><li>Reviewing your inflammation and nutrient markers, then re-checking</li><li>Gradual, realistic movement that supports recovery</li></ul>
+      <div class="ptest" data-program="anti" hidden></div>
+      <details class="more"><summary>Full details</summary>
+        <h4>What you get</h4>
+        <ul class="ticks">
+          <li>A personalised diet chart in clear, simple steps, with recipe videos</li>
+          <li>One-on-one guidance, with group support and the WhatsApp community</li>
+          <li>Regular check-ins, so your plan is adjusted as you progress</li>
+          <li>Free weekly health webinars and monthly challenges</li>
+          <li>A review at the end, with your own plan to maintain results</li>
+        </ul>
+        <h4>How it runs</h4>
+        <p>16 weeks in four phases: Adjust, Boost, Transform and Maintain. Online, from home.</p>
+        <h4>Before we start</h4>
+        <p>Your recent blood reports (including hs-CRP if you have it), any symptoms you want to track, and your medicine list.</p>
+      </details>
+      <p class="safe">This program supports your treatment and does not replace it. Medicines are never changed or stopped through this program.</p>
+      <a class="btn" data-wa href="#">Request a callback</a>
+    </article>
+
+    <article class="track" id="pcos">
+      <div class="tag">Program 2</div>
+      <h3>PCOS healing program</h3>
+      <p class="for">PCOS or PCOD: irregular or missed periods, acne, excess hair growth, weight gain, or wanting to restore hormone balance naturally.</p>
+      <ul class="ticks"><li>Food and routine built around insulin sensitivity and hormone balance</li><li>Gut, liver, stress and sleep, which all influence hormones</li><li>Reviewing the right hormone and insulin tests with your doctor</li><li>Cycle-aware guidance on movement and rest</li></ul>
+      <div class="ptest" data-program="pcos" hidden></div>
+      <details class="more"><summary>Full details</summary>
+        <h4>What you get</h4>
+        <ul class="ticks">
+          <li>A personalised diet chart in clear, simple steps, with recipe videos</li>
+          <li>One-on-one guidance, with group support and the WhatsApp community</li>
+          <li>Regular check-ins, so your plan is adjusted as you progress</li>
+          <li>Free weekly health webinars and monthly challenges</li>
+          <li>A review at the end, with your own plan to maintain results</li>
+        </ul>
+        <h4>How it runs</h4>
+        <p>16 weeks in four phases: Adjust, Boost, Transform and Maintain. Online, from home.</p>
+        <h4>Before we start</h4>
+        <p>Your cycle history, recent hormone, thyroid and blood-sugar reports if you have them, any scan reports, and your medicine list.</p>
+      </details>
+      <p class="safe">We work alongside your gynaecologist and never replace fertility or medical care. Medicines are never changed or stopped through this program.</p>
+      <a class="btn" data-wa href="#">Request a callback</a>
+    </article>
+
+    <article class="track" id="thyroid">
+      <div class="tag">Program 3</div>
+      <h3>Thyroid healing program</h3>
+      <p class="for">Hypothyroid and Hashimoto’s, or a sluggish thyroid: tiredness, weight that won’t move, hair fall, constipation, brain fog, always feeling cold.</p>
+      <ul class="ticks"><li>Looking beyond TSH: your full thyroid picture, antibodies and nutrient gaps</li><li>Gut health, stress and sleep, which all influence the thyroid</li><li>A thyroid-friendly food plan with simple swaps and recipe videos</li><li>Clear guidance on spacing food and your thyroid tablet</li></ul>
+      <div class="ptest" data-program="thyroid" hidden></div>
+      <details class="more"><summary>Full details</summary>
+        <h4>What you get</h4>
+        <ul class="ticks">
+          <li>A personalised diet chart in clear, simple steps, with recipe videos</li>
+          <li>One-on-one guidance, with group support and the WhatsApp community</li>
+          <li>Regular check-ins, so your plan is adjusted as you progress</li>
+          <li>Free weekly health webinars and monthly challenges</li>
+          <li>A review at the end, with your own plan to maintain results</li>
+        </ul>
+        <h4>How it runs</h4>
+        <p>16 weeks in four phases: Adjust, Boost, Transform and Maintain. Online, from home.</p>
+        <h4>Before we start</h4>
+        <p>Your recent thyroid reports (with antibodies if you have them), other blood reports, and your medicine list.</p>
+      </details>
+      <p class="safe">Thyroid medicine is never changed or stopped through this program. Any change in dose is for your doctor.</p>
+      <a class="btn" data-wa href="#">Request a callback</a>
+    </article>
+
+    <article class="track" id="gut">
+      <div class="tag">Program 4</div>
+      <h3>Gut healing program</h3>
+      <p class="for">Bloating, acidity, constipation, IBS-type symptoms, food-trigger worries, or poor absorption of nutrients.</p>
+      <ul class="ticks"><li>A gentle, food-first gut plan, built up step by step</li><li>Fibre, fermented foods and meal habits introduced at a pace your gut can handle</li><li>Finding your personal triggers without cutting food groups blindly</li><li>Stress, sleep and eating habits that calm the gut</li></ul>
+      <div class="ptest" data-program="gut" hidden></div>
+      <details class="more"><summary>Full details</summary>
+        <h4>What you get</h4>
+        <ul class="ticks">
+          <li>A personalised diet chart in clear, simple steps, with recipe videos</li>
+          <li>One-on-one guidance, with group support and the WhatsApp community</li>
+          <li>Regular check-ins, so your plan is adjusted as you progress</li>
+          <li>Free weekly health webinars and monthly challenges</li>
+          <li>A review at the end, with your own plan to maintain results</li>
+        </ul>
+        <h4>How it runs</h4>
+        <p>16 weeks in four phases: Adjust, Boost, Transform and Maintain. Online, from home.</p>
+        <h4>Before we start</h4>
+        <p>Your digestive symptoms and how long you have had them, any stool, H. pylori or other gut reports, recent blood reports, and your medicine list.</p>
+      </details>
+      <p class="safe">Blood in stool, unexplained weight loss, black stools, or severe or worsening belly pain need a doctor first, not a diet plan. Medicines are never changed or stopped through this program.</p>
+      <a class="btn" data-wa href="#">Request a callback</a>
+    </article>
+
+    <article class="track" id="diabetes">
+      <div class="tag">Program 5</div>
+      <h3>Diabetes &amp; blood sugar program</h3>
+      <p class="for">Prediabetes, insulin resistance and type 2 diabetes, including people who feel tired after meals, crave sugar or can’t shift belly fat.</p>
+      <ul class="ticks"><li>Plans built around steady blood sugar and real, familiar food</li><li>Meal habits, fibre and protein balance, movement and sleep</li><li>Reviewing the right tests, with a re-check to see what is working</li><li>Coordinated with your doctor</li></ul>
+      <div class="ptest" data-program="diabetes" hidden></div>
+      <details class="more"><summary>Full details</summary>
+        <h4>What you get</h4>
+        <ul class="ticks">
+          <li>A personalised diet chart in clear, simple steps, with recipe videos</li>
+          <li>One-on-one guidance, with group support and the WhatsApp community</li>
+          <li>Regular check-ins, so your plan is adjusted as you progress</li>
+          <li>Free weekly health webinars and monthly challenges</li>
+          <li>A review at the end, with your own plan to maintain results</li>
+        </ul>
+        <h4>How it runs</h4>
+        <p>16 weeks in four phases: Adjust, Boost, Transform and Maintain. Online, from home.</p>
+        <h4>Before we start</h4>
+        <p>Your latest HbA1c and sugar readings, lipid profile if you have it, and the full list of medicines or insulin so the plan fits safely.</p>
+      </details>
+      <p class="safe">If you take diabetes medicines or insulin, changes in food can change what your body needs. We work with your doctor and never ask you to stop a medicine.</p>
+      <a class="btn" data-wa href="#">Request a callback</a>
+    </article>
+
+    <article class="track" id="heart">
+      <div class="tag">Program 6</div>
+      <h3>Heart health program</h3>
+      <p class="for">High cholesterol or triglycerides, high blood pressure, a family history of heart disease, belly fat, or a stressful, sedentary routine.</p>
+      <ul class="ticks"><li>Food patterns that support the heart: more fibre, vegetables and good fats, fewer refined carbs</li><li>Weight, blood sugar, stress and sleep, which all affect the heart</li><li>Reading your lipid profile and blood pressure over time, then re-checking</li><li>Safe, gradual movement, as cleared by your doctor</li></ul>
+      <div class="ptest" data-program="heart" hidden></div>
+      <details class="more"><summary>Full details</summary>
+        <h4>What you get</h4>
+        <ul class="ticks">
+          <li>A personalised diet chart in clear, simple steps, with recipe videos</li>
+          <li>One-on-one guidance, with group support and the WhatsApp community</li>
+          <li>Regular check-ins, so your plan is adjusted as you progress</li>
+          <li>Free weekly health webinars and monthly challenges</li>
+          <li>A review at the end, with your own plan to maintain results</li>
+        </ul>
+        <h4>How it runs</h4>
+        <p>16 weeks in four phases: Adjust, Boost, Transform and Maintain. Online, from home.</p>
+        <h4>Before we start</h4>
+        <p>Your lipid profile and blood pressure readings, any heart-related reports or advice from your doctor, and your medicine list.</p>
+      </details>
+      <p class="safe">This program supports, and never replaces, your doctor’s or cardiologist’s care. Chest pain, breathlessness or fainting need urgent medical attention, not a diet plan. Medicines are never changed or stopped through this program.</p>
+      <a class="btn" data-wa href="#">Request a callback</a>
+    </article>
+
+    <article class="track" id="autoimmune">
+      <div class="tag">Program 7</div>
+      <h3>Autoimmune health support</h3>
+      <p class="for">People living with autoimmune concerns, who want food and lifestyle support alongside their specialist’s treatment.</p>
+      <ul class="ticks"><li>Looking at gut health, nutrient gaps, stress and sleep</li><li>Identifying personal triggers carefully, not cutting out food groups blindly</li><li>Reading antibody and routine reports in context</li><li>Working with your specialist, never instead of them</li></ul>
+      <div class="ptest" data-program="autoimmune" hidden></div>
+      <details class="more"><summary>Full details</summary>
+        <h4>What you get</h4>
+        <ul class="ticks">
+          <li>A personalised diet chart in clear, simple steps, with recipe videos</li>
+          <li>One-on-one guidance, with group support and the WhatsApp community</li>
+          <li>Regular check-ins, so your plan is adjusted as you progress</li>
+          <li>Free weekly health webinars and monthly challenges</li>
+          <li>A review at the end, with your own plan to maintain results</li>
+        </ul>
+        <h4>How it runs</h4>
+        <p>16 weeks in four phases: Adjust, Boost, Transform and Maintain. Online, from home.</p>
+        <h4>Before we start</h4>
+        <p>Your diagnosis, your specialist’s advice, recent antibody and routine reports, and your medicine list.</p>
+      </details>
+      <p class="safe">Medicines are never changed or stopped through this program.</p>
+      <a class="btn" data-wa href="#">Request a callback</a>
+    </article>
+
+    <article class="track" id="postpartum">
+      <div class="tag">Program 8</div>
+      <h3>Post-pregnancy weight loss</h3>
+      <p class="for">New mothers who want their energy, body and confidence back, without crash diets.</p>
+      <ul class="ticks"><li>Gentle, nourishing plans that suit breastfeeding</li><li>Energy, sleep, hair fall and mood looked at alongside weight</li><li>Checking the basics, such as iron, vitamin D and thyroid, when relevant</li><li>Short, realistic routines that fit around a baby</li></ul>
+      <div class="ptest" data-program="postpartum" hidden></div>
+      <details class="more"><summary>Full details</summary>
+        <h4>What you get</h4>
+        <ul class="ticks">
+          <li>A personalised diet chart in clear, simple steps, with recipe videos</li>
+          <li>One-on-one guidance, with group support and the WhatsApp community</li>
+          <li>Regular check-ins, so your plan is adjusted as you progress</li>
+          <li>Free weekly health webinars and monthly challenges</li>
+          <li>A review at the end, with your own plan to maintain results</li>
+        </ul>
+        <h4>How it runs</h4>
+        <p>16 weeks in four phases: Adjust, Boost, Transform and Maintain. Online, from home.</p>
+        <h4>Before we start</h4>
+        <p>Your delivery and feeding details, any medicines, and recent reports (such as haemoglobin or ferritin, vitamin D and thyroid) if you have them.</p>
+      </details>
+      <p class="safe">We begin only once your doctor has cleared you for weight loss and exercise.</p>
+      <a class="btn" data-wa href="#">Request a callback</a>
+    </article>
+
+  </div>
+  <p class="note">These programs support, and do not replace, medical care. Individual results vary.</p>
+</div></section>
+
+<section class="journey" id="journey"><div class="wrap">
+  <div class="eyebrow">The program</div>
+  <h2>Four phases. <span>Sixteen weeks.</span></h2>
+  <hr class="rule" style="background:var(--gold)">
+  <p class="lead">A step-by-step approach for a transformed version of you. Small changes, one step at a time, at a pace you are comfortable with.</p>
+  <div class="steps">
+    <div class="step"><small>Weeks 1–4</small><h3>Adjust</h3><p>We lay the foundation: your reports and history are studied, food and lifestyle changes begin gently, and the gut and liver get attention first. Movement is planned around your goals.</p></div>
+    <div class="step"><small>Weeks 5–8</small><h3>Boost</h3><p>Metabolism, inflammation markers where relevant, sleep and stress (with meditation and other practices), exercise and portion skills.</p></div>
+    <div class="step"><small>Weeks 9–12</small><h3>Transform</h3><p>Pantry clean-out and better cooking practices, reducing everyday toxin exposure, supporting immunity and deeper lifestyle healing.</p></div>
+    <div class="step"><small>Weeks 13–16</small><h3>Maintain</h3><p>You review what you’ve learned and build your own plan with our help, join monthly challenges, and stay in the micro-community.</p></div>
+  </div>
+  <div class="perks">
+    <span>Callback to discuss your goals first</span><span>Lifelong micro-community access</span><span>Free weekly health webinars</span><span>Monthly challenges</span>
+  </div>
+</div></section>
+
+<section id="focus"><div class="wrap">
+  <div class="eyebrow">What I help with</div>
+  <h2>Where people usually <span>come to me</span></h2>
+  <hr class="rule">
+  <div class="chips">
+    <div class="chip"><i>🌿</i><b>Gut &amp; digestion</b><span>Bloating, acidity, IBS, constipation, poor absorption</span></div>
+    <div class="chip"><i>🦋</i><b>Thyroid health</b><span>Hypothyroid, Hashimoto’s, sluggish metabolism, hair fall</span></div>
+    <div class="chip"><i>🌸</i><b>PCOS &amp; hormones</b><span>Irregular cycles, fibroids, weight that won’t move</span></div>
+    <div class="chip"><i>🍃</i><b>Blood sugar &amp; weight</b><span>Prediabetes, insulin resistance, stubborn plateaus</span></div>
+    <div class="chip"><i>🫶</i><b>Liver, heart &amp; metabolic health</b><span>Fatty liver, cholesterol, blood pressure, heart health</span></div>
+    <div class="chip"><i>🩸</i><b>Iron, B12 &amp; vitamin D</b><span>Fatigue, low stores, nutrient gaps that reports can hide</span></div>
+    <div class="chip"><i>💤</i><b>Energy &amp; recovery</b><span>Tiredness, low stamina, slow recovery</span></div>
+    <div class="chip"><i>🥗</i><b>Everyday nutrition</b><span>Vegetarian, busy-schedule and family-kitchen plans</span></div>
+  </div>
+  <p class="note">I work alongside your doctor, not instead of them. Anything that needs medical care gets referred.</p>
+
+  <div class="goals">
+    <span>Sustainable weight loss or gain</span><span>Managing health conditions</span><span>Sleep &amp; stress</span><span>Lifestyle reset</span><span>Overall wellbeing</span>
+  </div>
+  <div class="two">
+    <div class="card"><h3>Who is it for?</h3><p>Anyone aged 16 to 70 with a health or fitness goal. Losing or gaining weight, or managing everyday problems like acidity, digestive issues, migraine or constipation, through to hormonal and long-term concerns such as PCOS, thyroid, diabetes, heart and liver health.</p></div>
+    <div class="card"><h3>What makes it different?</h3>
+      <ul class="ticks">
+        <li>Personalised, one-on-one and group</li>
+        <li>Root cause, not just symptom suppression</li>
+        <li>Natural, holistic, food-first approach</li>
+        <li>Learn the logic behind every step</li>
+        <li>Online, from the comfort of your home</li>
+      </ul></div>
+  </div>
+</div></section>
+
+<section class="pillars" id="approach"><div class="wrap">
+  <div class="eyebrow">My approach</div>
+  <h2>Not more advice. <span>Better questions.</span></h2>
+  <hr class="rule">
+  <p class="lead">A few principles shape every plan I write. The details are different for every person; the thinking stays the same.</p>
+  <div class="cards">
+    <div class="card"><div class="num">1</div><h3>Start with the gut</h3><p>Digestion decides what you absorb, how you feel after meals and how calm your system is. It is where I begin with every client.</p></div>
+    <div class="card"><div class="num">2</div><h3>Read the whole picture</h3><p>Your history, symptoms and reports are read together, line by line, against the lab’s own ranges. Patterns matter more than one number.</p></div>
+    <div class="card"><div class="num">3</div><h3>Nourish before restricting</h3><p>If your body is running low on something, we correct that first. Cutting foods from a depleted body usually backfires.</p></div>
+    <div class="card"><div class="num">4</div><h3>One change at a time</h3><p>So we both know what actually helped. No crowded supplement shelves, no guesswork.</p></div>
+    <div class="card"><div class="num">5</div><h3>Charts you will actually follow</h3><p>Short, clear and practical. Few words, simple lists, and recipe videos next to the dishes, made for real kitchens and real schedules.</p></div>
+    <div class="card"><div class="num">6</div><h3>Measure and re-check</h3><p>We agree what “better” looks like at the start, then re-check. If something isn’t earning its place, it goes.</p></div>
+    <div class="card"><div class="num">7</div><h3>Hormones never work alone</h3><p>Gut, liver, blood sugar, stress and sleep all talk to each other. A hormone concern is rarely just a hormone problem.</p></div>
+    <div class="card"><div class="num">8</div><h3>Rest is part of progress</h3><p>Sleep, stress and recovery are part of the plan, not a break from it. A body that never recovers struggles to heal.</p></div>
+    <div class="card"><div class="num">9</div><h3>Your body, your response</h3><p>A food can be healthy and still not suit you. We start with small swaps and what’s already in your kitchen, not an overnight overhaul.</p></div>
+  </div>
+</div></section>
+
+<section id="patterns"><div class="wrap">
+  <div class="eyebrow">From my practice</div>
+  <h2>What I see <span>again and again</span></h2>
+  <hr class="rule">
+  <p class="lead">Patterns from client work, shared without names or personal details.</p>
+  <div class="pat">
+    <div class="card"><span class="tag">Fatigue &amp; hair fall</span><h3>“Normal haemoglobin” is not the whole story</h3><p>Iron stores can be very low while a basic blood count looks fine. Checking the right markers changes the plan.</p></div>
+    <div class="card"><span class="tag">Reports</span><h3>Read the original, not just the summary</h3><p>Automated report summaries sometimes mislabel units or ranges. I always go back to the lab’s own page before drawing a conclusion.</p></div>
+    <div class="card"><span class="tag">Medicines</span><h3>What you take can explain how you feel</h3><p>Long-term medicines can quietly lower certain nutrients. Your medication list is part of the investigation.</p></div>
+    <div class="card"><span class="tag">Weight</span><h3>Not every stubborn weight is insulin resistance</h3><p>Before building a low-carb plan, I check whether it is actually the problem. Sometimes the answer is elsewhere.</p></div>
+  </div>
+  <p class="note">Education only, not individual advice. Every person’s picture is different.</p>
+</div></section>
+
+<section class="media" id="media"><div class="wrap">
+  <div class="eyebrow">Watch &amp; learn</div>
+  <h2>Short videos on <span>food and healing</span></h2>
+  <hr class="rule">
+  <div class="vids">
+    <a class="vid" href="https://www.instagram.com/dr_ashwini_j/reel/DgE-4tdg5BM/" target="_blank" rel="noopener"><b>Fibroids aren’t only a “uterus problem”</b><small>The liver’s role in clearing estrogen</small></a>
+    <a class="vid" href="https://www.instagram.com/dr_ashwini_j/reel/DZaUnZ7T8MD/" target="_blank" rel="noopener"><b>“Normal” TSH, but still unwell?</b><small>Why one thyroid marker isn’t the whole story</small></a>
+    <a class="vid" href="https://www.instagram.com/dr_ashwini_j/reel/DJQqeAhzQJ2/" target="_blank" rel="noopener"><b>What hair health tells you</b><small>What may be missing inside the body</small></a>
+    <a class="vid" href="https://www.instagram.com/dr_ashwini_j/reel/DZ4Rt3qSooy/" target="_blank" rel="noopener"><b>High stress is hormonal</b><small>Calming cortisol with food and habits</small></a>
+    <a class="vid" href="https://www.instagram.com/dr_ashwini_j/reel/DgHNRXIS4Lz/" target="_blank" rel="noopener"><b>Bloated after meals?</b><small>A warm ginger–cinnamon–fennel tea</small></a>
+    <a class="vid" href="https://www.instagram.com/dr_ashwini_j/reel/DZKLiG7y26J/" target="_blank" rel="noopener"><b>Thyroid-friendly curd oats</b><small>Protein, fibre and probiotics in one bowl</small></a>
+  </div>
+  <p style="margin-top:22px"><a class="btn ghost" href="https://www.instagram.com/dr_ashwini_j/" target="_blank" rel="noopener">More on Instagram</a></p>
+</div></section>
+
+<section class="food" id="food"><div class="wrap grid">
+  <div>
+    <div class="eyebrow">Food, made practical</div>
+    <h2>Nourishing food that <span>tastes like home</span></h2>
+    <hr class="rule">
+    <p class="lead">My video recipe library covers 40+ everyday categories, so your plan comes with real recipes, not just a list of foods.</p>
+    <div class="tiles"><span>Oats</span><span>Millets</span><span>Moong dal</span><span>Besan</span><span>Dosa</span><span>Chutney</span><span>Soups</span><span>Curd</span><span>Paneer</span><span>Detox drinks</span><span>Gut healing</span><span>Evening snacks</span><span>Fasting recipes</span><span>Low carb</span></div>
+    <div class="recipes">
+      <h3>Favourites from my kitchen</h3>
+      <ul>
+        <li><a href="https://drive.google.com/file/d/1foryDeID0pQU12KqFQM0aAJWjU9m10YC/view" target="_blank" rel="noopener"><b>Cinnamon–lemon water</b><span>A gentle morning drink</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1MCvPkrNctmq8a805j3AGSW8sTnQPQqi7/view" target="_blank" rel="noopener"><b>Moringa buttermilk</b><span>Cooling, gut-friendly</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1qlW55KyL-KgTFfW39SlOt3O0d64vNKMl/view" target="_blank" rel="noopener"><b>Moong dosa</b><span>Protein-rich breakfast</span></a></li>
+        <li><a href="https://drive.google.com/file/d/17apYOX-1T1TYBreu27fERZ8Tajy_ZqH6/view" target="_blank" rel="noopener"><b>Millet veg upma</b><span>Easy, filling, everyday</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1bJvKuDk1Rdjue4A8mE3Nw1l0T_ilxz1j/view" target="_blank" rel="noopener"><b>Jowar roti</b><span>Soft millet roti, step by step</span></a></li>
+        <li><a href="https://drive.google.com/file/d/13cKsxT8iMN6ylVTED5WIU4sjn2jPEbJM/view" target="_blank" rel="noopener"><b>Moong dal khichadi</b><span>Comfort food that is kind to the gut</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1xEKdyd5XI9M3GhzC3Yw-dt1mIgs2isMz/view" target="_blank" rel="noopener"><b>Curry leaf chutney</b><span>Flavour with every meal</span></a></li>
+        <li><a href="https://www.instagram.com/dr_ashwini_j/reel/DgHNRXIS4Lz/" target="_blank" rel="noopener"><b>Ginger–cinnamon–fennel tea</b><span>For after-meal bloating</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="chartmock">
+    <h3>A chart you can read in a glance</h3>
+    <div class="row"><b>Morning</b><span>Warm lemon-cinnamon water</span></div>
+    <div class="row"><b>Breakfast</b><span>Pick 1 from your list, recipe video linked</span></div>
+    <div class="row"><b>Lunch</b><span>Plate: vegetables, protein, a small grain</span></div>
+    <div class="row"><b>Must-haves</b><span>The few foods you shouldn’t skip, and why</span></div>
+    <div class="row"><b>Night</b><span>Light dinner, calming drink</span></div>
+  </div>
+</div></section>
+
+<section class="faq" id="faq"><div class="wrap narrow">
+  <div class="eyebrow">Questions</div>
+  <h2>Before you <span>book</span></h2>
+  <hr class="rule">
+  <details><summary>Do I need lab reports first?</summary><p>Not to begin. If you have recent reports, bring them. If not, I’ll tell you which ones are worth doing, and in what order, so you don’t pay for tests you don’t need.</p></details>
+  <details><summary>Is it a diet or a medicine?</summary><p>Neither. It’s a food-first plan built around your history and your results. I don’t diagnose and I don’t replace your doctor; I work alongside them.</p></details>
+  <details><summary>Will I need lots of supplements?</summary><p>No. Food and gut come first. Supplements, if any, come later, one at a time and only when there is a reason for them.</p></details>
+  <details><summary>I’m vegetarian or cook for a family. Can you work with that?</summary><p>Yes. Many of my plans are vegetarian and built around a shared family kitchen and a busy schedule.</p></details>
+  <details><summary>Do you work with people outside my city?</summary><p>Yes, consultations are online and plans are shared digitally, with support on WhatsApp. We work with clients across India and around the world, and sessions are scheduled to suit your time zone.</p></details>
+  <details><summary>How long is the program?</summary><p>The core program is 16 weeks in four phases of four weeks each (Adjust, Boost, Transform, Maintain). After that you stay connected through the micro-community and weekly webinars.</p></details>
+  <details><summary>How much does it cost?</summary><p>The fee depends on your goals and health conditions. You will find it in <a href="#fees" style="color:var(--saffron-d);font-weight:700">Fees &amp; terms</a> just below, or request a callback and we’ll tell you what fits you.</p></details>
+  <details><summary>One-on-one or group?</summary><p>Both are available. One-on-one is fully personalised; the group adds community and accountability.</p></details>
+</div></section>
+
+<section class="fees" id="fees"><div class="wrap">
+  <div class="eyebrow">Fees &amp; terms</div>
+  <h2>Clear fees. <span>No surprises.</span></h2>
+  <hr class="rule">
+  <div class="feegrid">
+    <div class="feecard">
+      <div class="tag">Program fee</div>
+      <div class="price">From ₹8,000<small> per month</small></div>
+      <p>For an individual condition. The exact fee varies with your goals and health conditions, so we agree it together on your callback.</p>
+      <ul class="ticks">
+        <li>16-week program, online from home</li>
+        <li>Personalised chart with recipe videos</li>
+        <li>One-on-one and group support</li>
+        <li>WhatsApp community, free weekly webinars, monthly challenges</li>
+      </ul>
+      <a class="btn" data-wa href="#">Request a callback</a>
+    </div>
+    <div class="join">
+      <h3>How to join</h3>
+      <ol>
+        <li><b>Request a callback.</b> Tell us what is going on and what you want to achieve.</li>
+        <li><b>We talk it through.</b> Your history, your reports and your medicines.</li>
+        <li><b>Choose your program and fee.</b> Payment options are shared on the call.</li>
+        <li><b>Start your 16 weeks.</b> You get your first chart and a clear plan.</li>
+      </ol>
+    </div>
+  </div>
+  <h3 class="th">Terms in plain words</h3>
+  <div class="terms">
+    <div><b>Refunds</b><p>Fees are not refunded once the program has started. Please ask every question on your callback first.</p></div>
+    <div><b>Breaks</b><p>You can pause for up to two weeks, for illness, travel or family reasons. Your end date moves by the same time.</p></div>
+    <div><b>Transfers</b><p>Your plan is built from your own history and reports, so it cannot be transferred to another person.</p></div>
+    <div><b>Your part</b><p>Results come from changes in food and lifestyle, which take time and steady effort. We guide you, and you take the steps. No program can promise a quick fix or a cure.</p></div>
+    <div><b>Medical care</b><p>We work alongside your doctor, never instead of them. Do not stop or change any medicine without your doctor’s advice.</p></div>
+  </div>
+  <p class="note">By enrolling you agree to these terms.</p>
+</div></section>
+
+<section class="book" id="book"><div class="wrap">
+  <div class="eyebrow" style="color:var(--green)">Ready when you are</div>
+  <h2>Let’s find your <span>why</span></h2>
+  <p>Request a callback and discuss your concerns or goals before you start. I’ll tell you honestly whether I can help and what the first step would be.</p>
+  <a class="btn" data-wa href="#">Request a callback on WhatsApp</a>
+  &nbsp;<a class="btn ghost" data-community href="#">Join my community</a>
+</div></section>
+
+<footer><div class="wrap">
+  <div><h4>Core Elite Wellness · Holistic Health &amp; Healing</h4><p>Dr Ashwini J. Root-cause, food-first care. Online program.<br>Bangalore, India · online worldwide</p></div>
+  <div><h4>Follow</h4><p><a href="https://www.instagram.com/dr_ashwini_j/" target="_blank" rel="noopener">Instagram @dr_ashwini_j</a><br><a href="https://www.facebook.com/106587617785871" target="_blank" rel="noopener">Facebook</a><br><a data-community href="#">WhatsApp community</a><br><span data-slot="email2">✉ <a data-mail href="#"></a></span></p></div>
+  <div class="disc">The information on this website is for education and does not constitute medical advice, diagnosis or treatment. Functional nutrition support complements, and does not replace, care from your doctor. Do not start, stop or change any medicine because of anything you read here. If you have severe or worsening symptoms, seek medical care promptly. Individual results vary.<br>Client photos, videos and stories on this website are shared with permission. Please do not copy, download or reuse them.<br>© <span id="y">2026</span> Core Elite Wellness. All rights reserved.</div>
+</div></footer>
+
+<script>
+/* ===== CONTACT SETTINGS: fill these three, nothing else needs editing =====
+   whatsapp : full number with country code, digits only, e.g. "919876543210"
+   community: your WhatsApp community / group invite link
+   email    : your clinic email address                                      */
+const SITE = { whatsapp:"919518548006", community:"https://chat.whatsapp.com/KWnzrbjmkqGJi6en3RhP8m", email:"coreelitewellness@gmail.com" };
+(function(){
+  const pend=(el,txt)=>{el.removeAttribute('href');el.innerHTML='<span class="todo">'+txt+'</span>'};
+  document.querySelectorAll('[data-wa]').forEach(a=>{
+    if(SITE.whatsapp){a.href='https://wa.me/'+SITE.whatsapp.replace(/\D/g,'');
+      if(a.hasAttribute('data-wa-text'))a.textContent='WhatsApp +'+SITE.whatsapp.replace(/\D/g,'');}
+    else if(a.hasAttribute('data-wa-text')) pend(a,'WhatsApp number: to be added');
+    else {a.removeAttribute('href');a.style.opacity='.75';a.title='WhatsApp number to be added';}
+  });
+  document.querySelectorAll('[data-community]').forEach(a=>{
+    if(SITE.community){a.href=SITE.community;a.target='_blank';a.rel='noopener';}
+    else if(a.classList.contains('btn')){a.removeAttribute('href');a.style.opacity='.75';a.title='Community link to be added';}
+    else pend(a,'Community link: to be added');
+  });
+  document.querySelectorAll('[data-mail]').forEach(a=>{
+    if(SITE.email){a.href='mailto:'+SITE.email;a.textContent=SITE.email;}
+    else pend(a,'Clinic email: to be added');
+  });
+})();
+</script>
+<script>
+/* ===== RESULTS BY HEALTH CONCERN =====
+   Add one line per image. Put the file in "images/results".
+   tags: one or more of the concern names below (the filter buttons are made from them).
+   To hide someone, delete their line or add  hide:true  */
+const CONCERNS = ["Weight loss","PCOS / PCOD & hormones","Thyroid","Gut health","Blood sugar, BP & cholesterol","Fertility & pregnancy"];
+const RESULTS = [
+  {name:"Sneha, Sweden", tags:["Gut health","Weight loss"], img:"images/results/sneha-sweden.jpg", programs:["anti"]},
+  {name:"Bhavya", tags:["PCOS / PCOD & hormones","Weight loss"], img:"images/results/bhavya.jpg", programs:["pcos"]},
+  {name:"Deepika", tags:["PCOS / PCOD & hormones","Blood sugar, BP & cholesterol","Weight loss"], img:"images/results/deepika-pcos.jpg", programs:["pcos"]},
+  {name:"Sneha", tags:["PCOS / PCOD & hormones","Weight loss"], img:"images/results/sneha-pcos.jpg", programs:["pcos"]},
+  {name:"Mandakini", tags:["PCOS / PCOD & hormones","Weight loss"], img:"images/results/mandakini.jpg", programs:["pcos"]},
+  {name:"Client", tags:["PCOS / PCOD & hormones","Weight loss"], img:"images/results/estrogen-liver.jpg", programs:["pcos"]},
+  {name:"Isha", tags:["Thyroid","Weight loss"], img:"images/results/isha-thyroid.jpg", programs:["thyroid"]},
+  {name:"Varada", tags:["Thyroid","Gut health","Weight loss"], img:"images/results/varada-thyroid-gut.jpg", programs:["thyroid"]},
+  {name:"Shruti", tags:["Gut health"], img:"images/results/shruti-gut.jpg", programs:["gut"]},
+  {name:"Sindhu", tags:["Gut health","Weight loss"], img:"images/results/sindhu-gut.jpg", programs:["gut"]},
+  {name:"Sathya", tags:["Blood sugar, BP & cholesterol","Weight loss"], img:"images/results/sathya.jpg", programs:["heart"]},
+  {name:"Sudhir", tags:["Blood sugar, BP & cholesterol","Weight loss"], img:"images/results/sudhir.jpg", programs:["diabetes"]},
+  {name:"Dr Padmaja", tags:["Weight loss","Blood sugar, BP & cholesterol"], img:"images/results/padmaja.jpg", programs:["anti"]},
+  {name:"Devika", tags:["Fertility & pregnancy","PCOS / PCOD & hormones"], img:"images/results/devika-fertility.jpg", programs:["pcos"]},
+  {name:"Nagamani", tags:["Fertility & pregnancy","PCOS / PCOD & hormones","Gut health"], img:"images/results/nagamani.jpg", programs:["pcos"]},
+  {name:"Neetu", tags:["Weight loss"], img:"images/results/neetu.jpg"},
+  {name:"Prakruthi", tags:["Weight loss"], img:"images/results/prakruthi.jpg"},
+  {name:"Shailesh, Australia", tags:["Weight loss"], img:"images/results/shailesh-australia.jpg"},
+  {name:"Linju", tags:["Weight loss"], img:"images/results/linju.jpg"},
+];
+(function(){
+  const box=document.getElementById('ba'), chips=document.getElementById('rchips'); if(!box||!chips) return;
+  /* testimonies already shown inside a program card are not repeated here */
+  const items=RESULTS.filter(r=>!r.hide&&!(r.programs&&r.programs.length));
+  let cur='All';
+  function render(){
+    box.innerHTML='';
+    items.filter(r=>cur==='All'||r.tags.includes(cur)).forEach(r=>{
+      const c=document.createElement('button'); c.type='button'; c.className='bacard';
+      c.innerHTML='<img loading="lazy" src="'+r.img+'" alt="'+r.name+', client result"><div class="bc"><b>'+r.name+'</b>'+r.tags[0]+'</div>';
+      c.onclick=()=>openLb(r.img,r.name);
+      box.appendChild(c);
+    });
+  }
+  function mk(label){
+    const n=label==='All'?items.length:items.filter(r=>r.tags.includes(label)).length; if(!n) return;
+    const b=document.createElement('button'); b.type='button'; b.className='chip2'+(label===cur?' on':''); b.textContent=label+' ('+n+')'; b.setAttribute('role','tab');
+    b.onclick=()=>{cur=label; chips.querySelectorAll('.chip2').forEach(x=>x.classList.remove('on')); b.classList.add('on'); render();};
+    chips.appendChild(b);
+  }
+  ['All'].concat(CONCERNS).forEach(mk); render();
+  if(chips.children.length<=2) chips.style.display='none'; /* one concern only: no filter needed */
+  const lb=document.getElementById('lb'), lbi=document.getElementById('lbi');
+  function openLb(src,alt){lbi.src=src; lbi.alt=alt+', client result'; lb.hidden=false; document.body.style.overflow='hidden';}
+  window.openLb=openLb;
+  function closeLb(){lb.hidden=true; lbi.removeAttribute('src'); document.body.style.overflow='';}
+  lb.onclick=closeLb; document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!lb.hidden)closeLb();});
+})();
+</script>
+<script>
+/* ===== VIDEO TESTIMONIALS =====
+   Add one line per video. Two ways:
+   1) A file you saved in the "videos" folder next to this page:
+      {name:"Ninasha", note:"Client since 2018", src:"videos/ninasha.mp4"}
+   2) A Google Drive video (set sharing to "Anyone with the link"):
+      {name:"Priyanka", note:"Client", drive:"THE_FILE_ID_FROM_THE_DRIVE_LINK"}
+   3) An Instagram reel (public): {name:"Kavya", note:"PCOS", ig:"REEL_ID"}  (the ID is the part after /reel/ in the link)
+   4) An Instagram reel or story link:
+      {name:"Mohan", note:"Client", link:"https://www.instagram.com/reel/XXXX/"}
+   Only add videos from clients who agreed to be shown. */
+const VIDEO_TESTIMONIALS = [
+  // Your order: Kavya, Vikas, Isha, Devika, Padmaja (then one more). "programs" places a video inside that program's card.
+  {name:"Kavya, Sweden", note:"Her experience of the program", src:"videos/kavya.mp4", poster:"videos/kavya-poster.jpg"},
+  {name:"Vikas", note:"Client story", src:"videos/vikas.mp4", poster:"videos/vikas-poster.jpg"},
+  {name:"Isha", note:"Thyroid health", src:"videos/isha.mp4", poster:"videos/isha-poster.jpg", programs:["thyroid"]},
+  {name:"Devika", note:"Client story", src:"videos/devika.mp4", poster:"videos/devika-poster.jpg", programs:["pcos"]},
+  {name:"Dr Padmaja", note:"Weight loss", src:"videos/padmaja.mp4", poster:"videos/padmaja-poster.jpg", programs:["anti"]},
+  {name:"Client", note:"Client story", src:"videos/client-extra.mp4", poster:"videos/client-extra-poster.jpg"},
+  {name:"Archana", note:"Weight loss", src:"videos/archana.mp4", poster:"videos/archana-poster.jpg"},
+  // NOT UPLOADED YET (these play from Google Drive, which is unreliable). Remove the // once the file is in the "videos" folder or on YouTube:
+  // {name:"Client stories", note:"Highlights from our community", drive:"13-tqZKio5d9f0TbGBbWPbw_VN4J2yJnw"},
+  // {name:"Sneha, Sweden", note:"Anti-inflammatory program", drive:"1CUd_whe3tO9HyfKGJCjmBlgLzYMT44zQ", programs:["anti"]},
+  // {name:"Anchal", note:"Gut health", drive:"1UJWXxbfiRTxpfD97LRLcCgZZWHjv3iJ1", programs:["gut"]},
+  // {name:"Vinodini", note:"PCOS", drive:"1J58qIFsxggpkqGfOmdaDhGl-37jht-vq", programs:["pcos"]},
+  // {name:"Nagamani", note:"PCOS & fertility", drive:"1z73TBrjsJqrt2lfxuRH5o4PL0bp08eKy", programs:["pcos"]},
+  // {name:"Kavya", note:"PCOS", drive:"1gFbFb3v0J7_GIFm2zoZcAwiddqyYu6Fe"},
+  // {name:"Aparna", note:"Client story", drive:"1WYlPqHd0Fq1OX1p1RAStXhTjgV8uJjQY"},
+  // {name:"Priyanka", note:"Client story", drive:"1UlDKmRbczodqF1A5wxjjegWfeFvpc_G0"},
+  // {name:"Chaitanya", note:"Client story", drive:"1iZH1wnUx4Z1ernCYzBGWXVZpxbOYwCHI"},
+];
+(function(){
+  const box=document.getElementById('vtest'); if(!box) return;
+  if(!VIDEO_TESTIMONIALS.length){
+    for(let i=0;i<5;i++) box.insertAdjacentHTML('beforeend','<div class="vcard empty"><span class="todo">Client video '+(i+1)+' of 5<br>add file or link</span></div>');
+    return;
+  }
+  VIDEO_TESTIMONIALS.forEach(v=>{
+    const media = v.src ? '<video controls controlsList="nodownload noremoteplayback" disablePictureInPicture disableRemotePlayback oncontextmenu="return false" preload="metadata" playsinline'+(v.poster?' poster="'+v.poster+'"':'')+' src="'+v.src+'"></video>'
+                        : v.drive ? '<iframe loading="lazy" allow="autoplay; fullscreen" allowfullscreen src="https://drive.google.com/file/d/'+v.drive+'/preview" title="'+v.name+' video"></iframe>'
+                        : v.ig ? '<iframe class="ig" loading="lazy" allowfullscreen scrolling="no" src="https://www.instagram.com/reel/'+v.ig+'/embed/" title="'+v.name+' on Instagram"></iframe>'
+                        : '<a class="go" href="'+v.link+'" target="_blank" rel="noopener" aria-label="Watch '+v.name+'">▶</a>';
+    box.insertAdjacentHTML('beforeend','<div class="vcard">'+media+'<div class="vc"><b>'+v.name+'</b>'+(v.note||'')+'</div></div>');
+  });
+})();
+</script>
+<script>
+/* Fills each program card with that program's client results (images and videos tagged with "programs"). */
+(function(){
+  document.querySelectorAll('.ptest[data-program]').forEach(box=>{
+    const k=box.dataset.program;
+    const vids=(typeof VIDEO_TESTIMONIALS!=='undefined'?VIDEO_TESTIMONIALS:[]).filter(v=>v.src&&v.programs&&v.programs.includes(k));
+    /* show each person once per card: if they have a video here, skip their picture */
+    const imgs=(typeof RESULTS!=='undefined'?RESULTS:[]).filter(r=>!r.hide&&r.programs&&r.programs.includes(k)&&!vids.some(v=>v.name===r.name));
+    if(!imgs.length&&!vids.length) return;
+    let h='<h4>Client results</h4>';
+    if(vids.length) h+='<div class="pvids">'+vids.map(v=>'<figure class="pvid"><video controls controlsList="nodownload noremoteplayback" disablePictureInPicture disableRemotePlayback oncontextmenu="return false" preload="none" playsinline poster="'+(v.poster||'')+'" src="'+v.src+'"></video><figcaption><b>'+v.name+'</b> '+(v.note||'')+'</figcaption></figure>').join('')+'</div>';
+    if(imgs.length) h+='<div class="pthumbs">'+imgs.map((r,i)=>'<button type="button" class="pthumb" data-i="'+i+'" aria-label="View '+r.name+' result"><img loading="lazy" src="'+r.img+'" alt="'+r.name+', client result"><span>'+r.name+'</span></button>').join('')+'</div>';
+    box.innerHTML=h; box.hidden=false;
+    box.querySelectorAll('.pthumb').forEach(b=>b.onclick=()=>{const r=imgs[+b.dataset.i]; if(window.openLb) window.openLb(r.img,r.name);});
+  });
+})();
+</script>
+<script>
+/* Light protection: no right-click menu or drag-to-save on pictures and videos. This stops casual saving only. */
+(function(){
+  function onMedia(e){return e.target&&e.target.closest&&e.target.closest('img,video');}
+  document.addEventListener('contextmenu',function(e){if(onMedia(e))e.preventDefault();});
+  document.addEventListener('dragstart',function(e){if(onMedia(e))e.preventDefault();});
+})();
+</script>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
